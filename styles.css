@@ -280,6 +280,28 @@ body {
     font-family: system-ui, -apple-system, sans-serif
     /* font-family: 'Arial', sans-serif; */
 }
+@media(max-width: 768px) {
+    .work-experience .timeline-content {
+        padding: 15px;  /* Reduces padding to fit content better */
+        font-size: 0.9rem;
+}
+.work-experience .timeline-content h3 {
+    font-size: 1.5rem;  /* Slightly larger font for headings to maintain hierarchy */
+}
+
+.work-experience .timeline-content .date {
+    font-size: 1.2rem;  /* Ensures dates are still legible but not too large */
+}
+
+.work-experience ul {
+    padding-left:0px;  /* Ensures bullet points align nicely */
+}
+
+.timeline-content {
+    margin: 0;  /* Removes any additional margin for a cleaner layout */
+}
+}
+
 
 .container {
     max-width: 960px;
@@ -319,7 +341,7 @@ body {
 }
 
 .timeline-content h3 {
-    font-size: 2rem; /* Larger font size for job titles */
+    font-size: 1.5rem; /* Larger font size for job titles */
     margin: 10px 0;
     color: bisque;
 }
@@ -380,7 +402,7 @@ a:hover {
 }
 
 .about-text p {
-    font-size: 1rem;
+    font-size: 2rem;
     color: var(--text-secondary);
     margin-bottom: 2rem;
     text-align: left;
